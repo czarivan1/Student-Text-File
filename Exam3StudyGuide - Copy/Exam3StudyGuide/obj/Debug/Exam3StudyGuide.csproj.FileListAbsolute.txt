@@ -1,0 +1,30 @@
+c:\users\ivanmartinez\documents\visual studio 2012\Projects\Exam3StudyGuide\Exam3StudyGuide\bin\Debug\Exam3StudyGuide.exe.config
+C:\Users\ivanmartinez\Documents\Visual Studio 2012\Projects\Exam3StudyGuide\Exam3StudyGuide\bin\Debug\RestaurantMenu.accdb
+C:\Users\ivanmartinez\Documents\Visual Studio 2012\Projects\Exam3StudyGuide\Exam3StudyGuide\bin\Debug\Exam3StudyGuide.exe
+C:\Users\ivanmartinez\Documents\Visual Studio 2012\Projects\Exam3StudyGuide\Exam3StudyGuide\bin\Debug\Exam3StudyGuide.pdb
+C:\Users\ivanmartinez\Documents\Visual Studio 2012\Projects\Exam3StudyGuide\Exam3StudyGuide\obj\Debug\Exam3StudyGuide.csprojResolveAssemblyReference.cache
+C:\Users\ivanmartinez\Documents\Visual Studio 2012\Projects\Exam3StudyGuide\Exam3StudyGuide\obj\Debug\Exam3StudyGuide.Form1.resources
+C:\Users\ivanmartinez\Documents\Visual Studio 2012\Projects\Exam3StudyGuide\Exam3StudyGuide\obj\Debug\Exam3StudyGuide.Properties.Resources.resources
+C:\Users\ivanmartinez\Documents\Visual Studio 2012\Projects\Exam3StudyGuide\Exam3StudyGuide\obj\Debug\Exam3StudyGuide.csproj.GenerateResource.Cache
+C:\Users\ivanmartinez\Documents\Visual Studio 2012\Projects\Exam3StudyGuide\Exam3StudyGuide\obj\Debug\Exam3StudyGuide.exe
+C:\Users\ivanmartinez\Documents\Visual Studio 2012\Projects\Exam3StudyGuide\Exam3StudyGuide\obj\Debug\Exam3StudyGuide.pdb
+C:\Users\ivanmartinez\Documents\Visual Studio 2012\Projects\Exam3StudyGuide - Copy\Exam3StudyGuide\bin\Debug\Exam3StudyGuide.exe.config
+C:\Users\ivanmartinez\Documents\Visual Studio 2012\Projects\Exam3StudyGuide - Copy\Exam3StudyGuide\obj\Debug\Exam3StudyGuide.exe
+C:\Users\ivanmartinez\Documents\Visual Studio 2012\Projects\Exam3StudyGuide - Copy\Exam3StudyGuide\obj\Debug\Exam3StudyGuide.pdb
+C:\Users\ivanmartinez\Documents\Visual Studio 2012\Projects\Exam3StudyGuide - Copy\Exam3StudyGuide\bin\Debug\RestaurantMenu.accdb
+C:\Users\ivanmartinez\Documents\Visual Studio 2012\Projects\Exam3StudyGuide - Copy\Exam3StudyGuide\bin\Debug\Exam3StudyGuide.exe
+C:\Users\ivanmartinez\Documents\Visual Studio 2012\Projects\Exam3StudyGuide - Copy\Exam3StudyGuide\bin\Debug\Exam3StudyGuide.pdb
+C:\Users\ivanmartinez\Documents\Visual Studio 2012\Projects\Exam3StudyGuide - Copy\Exam3StudyGuide\obj\Debug\Exam3StudyGuide.csprojResolveAssemblyReference.cache
+C:\Users\ivanmartinez\Documents\Visual Studio 2012\Projects\Exam3StudyGuide - Copy\Exam3StudyGuide\obj\Debug\Exam3StudyGuide.Form1.resources
+C:\Users\ivanmartinez\Documents\Visual Studio 2012\Projects\Exam3StudyGuide - Copy\Exam3StudyGuide\obj\Debug\Exam3StudyGuide.Properties.Resources.resources
+C:\Users\ivanmartinez\Documents\Visual Studio 2012\Projects\Exam3StudyGuide - Copy\Exam3StudyGuide\obj\Debug\Exam3StudyGuide.csproj.GenerateResource.Cache
+C:\Users\ivanmartinez\Documents\Wu's Class\Exam3StudyGuide - Copy\Exam3StudyGuide\bin\Debug\Exam3StudyGuide.exe.config
+C:\Users\ivanmartinez\Documents\Wu's Class\Exam3StudyGuide - Copy\Exam3StudyGuide\obj\Debug\Exam3StudyGuide.exe
+C:\Users\ivanmartinez\Documents\Wu's Class\Exam3StudyGuide - Copy\Exam3StudyGuide\obj\Debug\Exam3StudyGuide.pdb
+C:\Users\ivanmartinez\Documents\Wu's Class\Exam3StudyGuide - Copy\Exam3StudyGuide\bin\Debug\RestaurantMenu.accdb
+C:\Users\ivanmartinez\Documents\Wu's Class\Exam3StudyGuide - Copy\Exam3StudyGuide\bin\Debug\Exam3StudyGuide.exe
+C:\Users\ivanmartinez\Documents\Wu's Class\Exam3StudyGuide - Copy\Exam3StudyGuide\bin\Debug\Exam3StudyGuide.pdb
+C:\Users\ivanmartinez\Documents\Wu's Class\Exam3StudyGuide - Copy\Exam3StudyGuide\obj\Debug\Exam3StudyGuide.csprojResolveAssemblyReference.cache
+C:\Users\ivanmartinez\Documents\Wu's Class\Exam3StudyGuide - Copy\Exam3StudyGuide\obj\Debug\Exam3StudyGuide.Form1.resources
+C:\Users\ivanmartinez\Documents\Wu's Class\Exam3StudyGuide - Copy\Exam3StudyGuide\obj\Debug\Exam3StudyGuide.Properties.Resources.resources
+C:\Users\ivanmartinez\Documents\Wu's Class\Exam3StudyGuide - Copy\Exam3StudyGuide\obj\Debug\Exam3StudyGuide.csproj.GenerateResource.Cache

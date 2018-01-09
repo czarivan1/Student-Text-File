@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DBC870A0-30C3-4195-AB73-CB9BAFD14D36}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Exam3StudyGuide</RootNamespace>
+    <AssemblyName>Exam3StudyGuide</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestaurantMenuDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantMenuDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantMenuDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantMenuDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantMenuDataSetAppetizer.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantMenuDataSetAppetizer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantMenuDataSetAppetizer2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantMenuDataSetAppetizer2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantMenuDataSetBeverages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantMenuDataSetBeverages.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantMenuDataSetDessert.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantMenuDataSetDessert.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantMenuDataSetDessert2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantMenuDataSetDessert2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantMenuDataSetMainCourse.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantMenuDataSetMainCourse.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantMenuDataSetMainCourse2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantMenuDataSetMainCourse2.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="RestaurantMenuDataSet.xsc">
+      <DependentUpon>RestaurantMenuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantMenuDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestaurantMenuDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestaurantMenuDataSet.xss">
+      <DependentUpon>RestaurantMenuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantMenuDataSet1.xsc">
+      <DependentUpon>RestaurantMenuDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantMenuDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestaurantMenuDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestaurantMenuDataSet1.xss">
+      <DependentUpon>RestaurantMenuDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantMenuDataSetAppetizer.xsc">
+      <DependentUpon>RestaurantMenuDataSetAppetizer.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantMenuDataSetAppetizer.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestaurantMenuDataSetAppetizer.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestaurantMenuDataSetAppetizer.xss">
+      <DependentUpon>RestaurantMenuDataSetAppetizer.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantMenuDataSetAppetizer2.xsc">
+      <DependentUpon>RestaurantMenuDataSetAppetizer2.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantMenuDataSetAppetizer2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestaurantMenuDataSetAppetizer2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestaurantMenuDataSetAppetizer2.xss">
+      <DependentUpon>RestaurantMenuDataSetAppetizer2.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantMenuDataSetBeverages.xsc">
+      <DependentUpon>RestaurantMenuDataSetBeverages.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantMenuDataSetBeverages.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestaurantMenuDataSetBeverages.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestaurantMenuDataSetBeverages.xss">
+      <DependentUpon>RestaurantMenuDataSetBeverages.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantMenuDataSetDessert.xsc">
+      <DependentUpon>RestaurantMenuDataSetDessert.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantMenuDataSetDessert.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestaurantMenuDataSetDessert.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestaurantMenuDataSetDessert.xss">
+      <DependentUpon>RestaurantMenuDataSetDessert.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantMenuDataSetDessert2.xsc">
+      <DependentUpon>RestaurantMenuDataSetDessert2.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantMenuDataSetDessert2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestaurantMenuDataSetDessert2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestaurantMenuDataSetDessert2.xss">
+      <DependentUpon>RestaurantMenuDataSetDessert2.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantMenuDataSetMainCourse.xsc">
+      <DependentUpon>RestaurantMenuDataSetMainCourse.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantMenuDataSetMainCourse.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestaurantMenuDataSetMainCourse.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestaurantMenuDataSetMainCourse.xss">
+      <DependentUpon>RestaurantMenuDataSetMainCourse.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantMenuDataSetMainCourse2.xsc">
+      <DependentUpon>RestaurantMenuDataSetMainCourse2.xsd</DependentUpon>
+    </None>
+    <None Include="RestaurantMenuDataSetMainCourse2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestaurantMenuDataSetMainCourse2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestaurantMenuDataSetMainCourse2.xss">
+      <DependentUpon>RestaurantMenuDataSetMainCourse2.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RestaurantMenu.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
