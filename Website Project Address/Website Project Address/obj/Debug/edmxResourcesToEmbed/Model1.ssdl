@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="masterModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="masterModelStoreContainer">
+    <EntitySet Name="Customers" EntityType="masterModel.Store.Customers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Orders" EntityType="masterModel.Store.Orders" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Table_ToTable" Association="masterModel.Store.FK_Table_ToTable">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="CustId" />
+    </Key>
+    <Property Name="CustId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CustFName" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="CustLName" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="CustAddress" Type="varchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="OrderId" />
+    </Key>
+    <Property Name="OrderId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OrderNum" Type="int" Nullable="false" />
+    <Property Name="OrderCost" Type="money" Nullable="false" />
+    <Property Name="CustId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Table_ToTable">
+    <End Role="Customers" Type="masterModel.Store.Customers" Multiplicity="1" />
+    <End Role="Orders" Type="masterModel.Store.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="CustId" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="CustId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

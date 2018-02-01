@@ -1,0 +1,43 @@
+﻿@model Website_Project_Address.Customer
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Customer</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustId)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustFName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustFName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustLName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustLName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CustAddress)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CustAddress)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
